@@ -29,9 +29,6 @@ def get_json_data_from_response(resp_text):
         logging.exception("=====\nto json error: %s\n=====" % resp_text)
         return json.loads("{}")
 
-        bbb
-
-        aaa
 
 
 def purge_file_name(file_name):
